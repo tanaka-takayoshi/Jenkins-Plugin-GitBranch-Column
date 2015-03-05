@@ -1,0 +1,7 @@
+<?jelly escape-by-default="true"?>
+<j:jelly xmlns:j="jelly:core">
+	<j:set var="branchName" value="${it.formatBranchName(job)}"/>
+  	<td>
+  		${branchName}
+  	</td>
+</j:jelly>
